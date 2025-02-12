@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{   font-family: "Roboto", serif;
+    padding: 0;
+    margin: 0;
+    background:#0B1D26 ;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wrapper{margin: 0 auto;
+    position: relative;
+  max-width: 1920px; /* Ширина родительского контейнера */
+  /* Высота родительского контейнера */
+  overflow: hidden;
+}
+.animate__fadeInLeft{
+    animation-duration: 5s;
+    
+}
+.fon{
+  
+    position: absolute;
+   
+   
+    /* коррекция положения элемента */
+   
+    width: 100%; /* Занимает 100% ширины родителя */
+ /* Занимает 100% высоты родителя */
+  object-fit: cover;
+    z-index: -1;
+}
+.hader{ animation-duration: 2s;
+    z-index: 1;
+    margin: 0 auto;
+   max-width: 1460px;
+   padding-top: 5px;
+height: auto;
+   color: rgb(255, 255, 255);
+  
+}
+.main{margin: 0 auto;
+    margin-top: 800px;
+    max-width: 1460px;
+height: auto;
+flex: 1 1  auto;
+}
+.top{animation-duration: 5s;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+.menu ul{
+display: flex;
+
+}
+.menu ul>li{
+   margin-left: 48px;
+   text-decoration: none;
+list-style: none;
+}
+.logo{
+    height: 30px;
+font-size: 40px;
+}
+.zagolovok{
+    animation-duration: 3s;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    text-align:right;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    font-size: 100px;
+    max-width: 1500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.cardts{
+    animation-duration: 3s;
+    height: 720px;
+    display: flex;
+   justify-content: space-between;
+   
+}
+.text_card{
+    padding-top: 6%;
+    margin-left: 20px;
+}
+.fraxi{
+    color: #FBD784;
+margin: 0;
+}
+.opis_card{
+    margin: 0 0 40px 0;
+    max-width: 681px;
+    font-weight: 100;
+}
+.zag_card{
+    font-size: 78px;
+    margin: 20px 0 20px 0;
+}
+.but
+{    color: #FBD784;}
+.number{
+   margin-top: -150px;
+   margin-left: -60px;
+    z-index: -1;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.247);
+position: absolute;
+font-size: 200px;
+font-weight: 900;
+}
+.card2{
+    --animate-delay: 0.9s;
+    margin-top: 180px;
+    flex-direction: row-reverse;
+    
+}
+.carusel_div
+{
+    margin: 0 auto;
+    margin-top: 400px;
+    max-width: 1100px;
+    
+}
+.detal1{margin-top: -330px;
+    margin-left: -390px;
+position: absolute;
+}
+.detal2{
+    position: absolute;
+    margin-left: -390px;
+    margin-top: 556px;
+}
+.detal3{
+    position: absolute;
+    margin-left: -390px;
+    margin-top: 120px;
+}
+.div_accardion{
+    padding: 40px 0 110px 0;
+   
+    margin-top: 410px;
+    
+}
+.accordion-button {
+    color:white ;
+    background-color: #11232c;
+border: 1px solid #ffffff33;
+}
+.accordion-item {
+    color: white;
+    border:none;
+    background-color: #11232c;
+}
+.footer{
+    margin-top: 100px;
+width: 100%;
+height: 200px;
+background-color: rgba(0, 0, 0, 0.265);}
+.block_heder{
+    width:100%;
+    height: 60px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    background-color: #0712202b;
+}
+.list-group-item.active {
+    padding: 40px;
+    background-color: #3c607a66;
+    border: none;
+}
+.list-group-item {
+    padding: 40px;
+    background-color: #bdd2e1a1;
+    color: rgba(255, 255, 255, 0.799);
+
+    border: none;
+}.list-group-item.active:hover {
+    background-color: #3c607a66;
+}
+.list-group-item:hover{
+    color: rgba(255, 255, 255, 0.799);
+    background-color: #bdd2e1a1;
+}
+.carousel-caption {
+    padding: 25px;
+    border-radius: 18px;
+    background: #00000082;}
+
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            display: inline-block;
+            width: 6rem;
+            height: 6rem;}
+            p {
+                margin-top: 0;
+                margin-bottom: 0rem;
+            }
+            @media (max-width: 1360px) {
+                .zagolovok {
+               
+                    font-size: 81px;
+                  
+                }
+                .img_card{
+display: none;
+                }
+                .main {
+                    margin: 0 auto;
+                    margin-top: 427px;}
+                    .text_card {
+                        padding-top: 6%;
+                      
+                        margin: 0 auto;}
+                        .zag_card {
+                            width: 601px;}
+            }
+            @media (max-width: 850px) {
+                .zagolovok {
+                    font-size: 62px;
+                    margin-top: 85px;
+                }
+                .menu ul {
+                    display: flex;
+                    font-size: 23px;
+                }
+                 .main {
+                    margin: 0 auto;
+                    margin-top: 227px;}
+            }
+            @media (max-width: 600px) {
+                .detal3 {
+                    display: none;
+                }
+                .detal1{
+                margin-top: -202px;}
+                .detal2 {
+                    position: absolute;
+                    margin-left: -390px;
+                    margin-top: 256px;
+                }
+                .zagolovok {
+                    font-size: 41px;}
+                    .menu ul {
+                        display: flex ;
+                        font-size: 18px;
+                    }
+                    .fraxi {
+                        font-size: 22px;
+                        color: #FBD784;
+                        margin: 0;
+                    }.zag_card {
+                        font-size: 42px;
+                        width: 501px;
+                    }.opis_card {
+                   font-size: 15px;
+                    }
+                    .cardts {
+                        animation-duration: 3s;
+                        height: auto;
+                        padding: 25px;}
+                        .carusel_div {
+                            margin: 0 auto;
+                            margin-top: 229px;}
+                          
+                            .div_accardion {
+                                padding: 20px 0 30px 0;
+                                margin-top: 210px;
+                                font-size: 14px;
+                            }
+                            .list-group-item.active {
+                                padding: 20px;
+                                background-color: #3c607a66;
+                                border: none;
+                            }
+                            .list-group-item {
+                                padding: 20px;
+                                background-color: #bdd2e1a1;
+                                color: rgba(255, 255, 255, 0.799);
+                                border: none;
+                            }
+                            .footer {
+                                margin-top: 100px;
+                                width: 100%;
+                                height: 100px;
+                                background-color: rgba(0, 0, 0, 0.265);
+                            }
+            }
+            @media (max-width: 500px) {
+               
+                p.mb-1 {
+                    font-size: 13px;
+                }
+                .div_accardion {
+                    padding: 20px 0 30px 0;
+                    margin-top: 176px;}
+                .carusel_div {
+                    margin: 0 auto;
+                    margin-top: 157px;}
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    display: inline-block;
+                    width: 4rem;
+                    height: 2rem;
+                }
+                .detal2 {
+                    position: absolute;
+                    margin-left: -90px;
+                    margin-top: 206px;
+                    width: 500px;
+                }
+                .detal1 {
+                    margin-top: -123px;
+                    margin-left: -90px;
+                    width: 500px;
+                }
+                .menu ul>li {
+                    margin-left: 18px;}
+                .zagolovok {
+                    font-size: 32px;
+                    margin-top: 34px;
+                margin-right: 10px;}
+                    .block_heder {
+                        width: 100%;
+                        height: 35px;
+                        position: absolute;
+                        margin: 0 auto;
+                        z-index: -1;
+                        background-color: #0712202b;
+                    }
+                    .top {
+                        font-size: 10px;}
+                        .menu ul>li{
+                            font-size: 15px;
+                        }
+                        .logo{
+                            height: 20px;
+                        }
+                        .main {
+                            margin: 0 auto;
+                        
+                            margin-top: 81px;
+                        }
+                        .number {
+                            margin-top: -150px;
+                            margin-left: -60px;
+                            z-index: -1;
+                            font-family: "Anton", serif;
+                            font-weight: 400;
+                            color: rgba(255, 255, 255, 0.247);
+                            position: absolute;
+                            font-size: 100px;
+                            font-weight: 900;
+                        }
+                        
+    .fraxi {
+        font-size: 15px;
+        color: #FBD784;
+        margin: 0;
+    }
+    .zag_card {
+        font-size: 28px;
+        width: 399px;
+        margin: 10px 0 10px 0;
+    }
+    .opis_card {
+        font-size: 13px;
+        margin: 0 0 20px 0;
+    }
+    .but {
+        font-size: 17px;
+        color: #FBD784;
+    }
+    .card2 {
+        --animate-delay: 0.9s;
+        margin-top: 78px;
+        flex-direction: row-reverse;
+    }
+    .number {
+        margin-top: -71px;
+        margin-left: -21px;
+        z-index: -1;
+        font-family: "Anton", serif;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.247);
+        position: absolute;
+        font-size: 100px;
+        font-weight: 900;
+    }
+
+    .text_card {
+        max-width: 300px;
+        padding-top: 6%;
+        margin: 0 auto;
+    }
+            }
